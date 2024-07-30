@@ -46,3 +46,26 @@ console.log(typeof scoreValue);
 // Object (native and does not implement [[Call]])	        "object"
 // Object (native or host and does implement [[Call]])	    "function"
 // Object (host and does not implement [[Call]])	        Implementation-defined except may not be "undefined", "boolean", "number", or "string".
+
+// ***************************************************
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "ComputerCodingCenter"
+anothername = "CodeforAll"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo =  userOne
+
+userTwo.email = "sadab@google.com"
+
+console.log(userOne.email);
+console.log(userOne.email);
+
