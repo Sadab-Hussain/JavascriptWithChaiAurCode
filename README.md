@@ -1,1 +1,1 @@
-# JavaScriptWithChaiAurCode
+# JavascriptWithChaiAurCode
