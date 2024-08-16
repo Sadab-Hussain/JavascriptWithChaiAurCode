@@ -32,7 +32,7 @@ buttons.forEach(function(button){
 });
 
 ```
-## project 2 solution 
+## project 2 solution code
 
 ``` javascript
 
@@ -68,3 +68,17 @@ form.addEventListener('submit', function (e) {
       results.innerHTML = `<span>Your BMI is ${bmi} (${bmiCategory})</span>`;    }
   });
 
+```
+
+## project 3 solution code
+
+``` javascript
+
+const clock = document.getElementById('clock')
+// const clock = document.querySelector('#clock')
+
+setInterval(function () {
+    let date = new Date();
+    // console.log(date.toloacaleTimeString());
+    clock.innerHTML = date.toLocaleTimeString();
+}), 1000;
