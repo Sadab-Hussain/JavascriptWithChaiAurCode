@@ -5,7 +5,7 @@
 
 # Solution code
 
-## project 1
+## project 1 code
 
 ```javascript
 console.log("Sadab")
@@ -32,7 +32,7 @@ buttons.forEach(function(button){
 });
 
 ```
-## project 2 solution code
+## project 2 code
 
 ``` javascript
 
@@ -70,7 +70,7 @@ form.addEventListener('submit', function (e) {
 
 ```
 
-## project 3 solution code
+## project 3 code
 
 ``` javascript
 
@@ -85,7 +85,7 @@ setInterval(function () {
 
 ```
 
-## project 4 solution code
+## project 4 code
 
 ``` javascript
 
@@ -125,7 +125,7 @@ function validateGuess(guess) {
         prevGuess.push(guess);
         if (numGuess === 11) {
             displayGuess(guess);
-            displayMessage(`Game Over. Random number was ${randomNumber}`);
+            displayMessage(`Game Over: Random number was ${randomNumber}`);
             endGame();
         } else {
             displayGuess(guess);
