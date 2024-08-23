@@ -181,6 +181,8 @@ function newGame() {
     });
 }
 
+```
+
 ## project 5 code
 
 ``` javascript
@@ -206,6 +208,8 @@ window.addEventListener('keydown', (e) => {
     </div>
   `;
 });
+
+```
 
 ## project 6 code
 
@@ -240,4 +244,6 @@ const randomColor = function () {
   document.querySelector('#start').addEventListener('click', startChangingColor);
   
   document.querySelector('#stop').addEventListener('click', stopChangingColor);
+
+```
   
